@@ -64,7 +64,7 @@ Go to **Sketch** → **Include Library** → **Manage Libraries**, then install:
 ---
 
 ## **🚀 Uploading ESP8266 Code**  
-📌 **File:** [`espmqtt_main.ino`](../Hardware/espmqtt_main/espmqtt_main.ino)
+📌 **File:** [`espmqtt_main.ino`](../Hardware/espmqtt_main/espmqtt_main.ino) .
 📌 **Purpose:** Reads **sensor data**, connects to **MQTT**, and transmits values.  
 
 ### **🔹 Steps to Upload Code**  
