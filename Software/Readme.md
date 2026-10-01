@@ -199,7 +199,3 @@ streamlit run Predictive_Maintenance_Dashboard.py
 - **Step 5:** Train & predict anomalies using `lstm_anomaly_detection.py` ✅  
 - **Step 6:** Run `Predictive_Maintenance_Dashboard.py` for visualization ✅  
 
-📌 **This guide ensures a smooth setup!** 🚀  
-💯 **Copy-paste in VS Code or GitHub README without issues.** 🔥  
-
-Let me know if you need modifications! 👍
