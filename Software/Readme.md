@@ -26,7 +26,7 @@ This project implements a **Predictive Maintenance System** using **ESP8266, DHT
 DHT11    -> VCC to 3.3V, GND to GND, Data to D4 (GPIO2)
 MPU6050  -> VCC to 3.3V, GND to GND, SCL to D1 (GPIO5), SDA to D2 (GPIO4)
 ```
-(Insert an **image of the connection diagram** here for reference.)
+( **image of the connection diagram** here for reference.) ![Connection Diagram](../Hardware/image.png)
 
 ---
 
@@ -64,7 +64,7 @@ Go to **Sketch** → **Include Library** → **Manage Libraries**, then install:
 ---
 
 ## **🚀 Uploading ESP8266 Code**  
-📌 **File:** `espmqtt_main.ino`  
+📌 **File:** `espmqtt_main.ino`(../Hardware/espmqtt_main/espmqtt_main.ino)
 📌 **Purpose:** Reads **sensor data**, connects to **MQTT**, and transmits values.  
 
 ### **🔹 Steps to Upload Code**  
