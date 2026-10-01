@@ -91,9 +91,9 @@ pip install paho-mqtt sqlite3 pandas numpy scikit-learn tensorflow streamlit
 ```
 
 ### **2️⃣ Run MQTT to SQLite Script**  
-📌 **File:** `mqtt2sqlite.py`  
-📌 **Purpose:** Captures sensor data from MQTT and stores it in SQLite.  
+📌 **File:** [`mqtt2sqlite.py`](mqtt2sqlite.py)
 
+📌 **Purpose:** Captures sensor data from MQTT and stores it in SQLite.
 #### **🔹 How to Run**  
 ```sh
 python mqtt2sqlite.py
@@ -114,8 +114,9 @@ Data stored in SQLite: sensor_data.db
 
 ## **📊 AI-Based Anomaly Detection**  
 ### **1️⃣ Run Isolation Forest Model**  
-📌 **File:** `IFM.py`  
-📌 **Purpose:** Detects **anomalies** in the sensor data.  
+📌 **File:** [`IFM.py`](IFM.py)
+
+📌 **Purpose:** Detects **anomalies** in the sensor data.
 
 #### **🔹 How to Run**  
 ```sh
@@ -128,8 +129,9 @@ python IFM.py
 ---
 
 ### **2️⃣ Data Preprocessing for LSTM Model**  
-📌 **File:** `cleandata.py`  
-📌 **Purpose:** Prepares sensor data for **LSTM-based anomaly detection**.  
+📌 **File:** [`cleandata.py`](cleandata.py)
+
+📌 **Purpose:** Prepares sensor data for **LSTM-based anomaly detection**.
 
 #### **🔹 How to Run**  
 ```sh
@@ -142,8 +144,9 @@ python cleandata.py
 ---
 
 ### **3️⃣ LSTM Model for Anomaly Prediction**  
-📌 **File:** `lstm_anomaly_detection.py`  
-📌 **Purpose:** Uses **LSTM Neural Network** to predict future failures.  
+📌 **File:** [`lstm_anomaly_detection.py`](lstm_anomaly_detection.py)
+
+📌 **Purpose:** Uses **LSTM Neural Network** to predict future failures.
 
 #### **🔹 How to Run**  
 ```sh
@@ -157,8 +160,9 @@ python lstm_anomaly_detection.py
 ---
 
 ## **📊 Real-Time Dashboard (Visualization & Alerts)**  
-📌 **File:** `Predictive_Maintenance_Dashboard.py`  
-📌 **Purpose:** Displays **real-time sensor data & alerts** using **Streamlit**.  
+📌 **File:** [`Predictive_Maintenance_Dashboard.py`](Predictive%20Maintenance%20Dashboard.py)
+
+📌 **Purpose:** Displays **real-time sensor data & alerts** using **Streamlit**.
 
 #### **🔹 How to Run**  
 ```sh
